@@ -1,5 +1,5 @@
 body{
-    background-color: #FEC6B9;
+    background-color: #CFDOCF;
 }
 header{
     text-align: center;
@@ -23,5 +23,34 @@ main{
     width: 130px;
     height: 130px;
     margin: 25px;
-    background: red
+    background: linear-gradient(45deg, #22AB93, #196680);
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-radius: 9px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    user-select: none;
+
 }
+.open{
+    animation: open-card 0.2s linear forwards
+}
+@keyframes open-card{
+    0%{
+        font-size: 0;
+        transform: rotateY(180deg);
+        background: linear-gradient(-45deg,  #22AB93, #196680);
+    }
+    50% {
+        font-size: 75px;
+    }
+    100%{
+        background: white;
+    }
+}
+
+
+
+
+
+
