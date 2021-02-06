@@ -1,11 +1,11 @@
 body {
-    background-color: #CFD0CF;
+    background: linear-gradient(to left, #22AB93, #19668D);
 }
 
 header {
     font-family: Arial;
     font-weight: bold;
-    color: #434344;
+    color: black;
     line-height: 47px;
     font-size: 42px;
     margin: 40px auto 40px auto;
@@ -142,7 +142,7 @@ main {
     text-align: center;
     margin-top: 30px;
     font-weight: bold;
-    color: #434344;
+    color: black;
 }
 .invisible{
     display: none !important;
