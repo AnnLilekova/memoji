@@ -1,7 +1,9 @@
 body {
-    background: linear-gradient(to left, #22AB93, #19668D);
+    background: linear-gradient(to right, cyan, blue);
 }
-
+/*
+background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+background: linear-gradient(to left, #22AB93, #19668D);*/
 header {
     font-family: Arial;
     font-weight: bold;
@@ -25,7 +27,7 @@ main {
     margin: 25px;
     width: 130px;
     height: 130px;
-    background: linear-gradient(45deg, #22AB93, #19668D);
+    background: linear-gradient(to left, #22AB93, #19668D);
     box-sizing: border-box;
     border: 5px solid white;
     border-radius: 9px;
